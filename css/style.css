@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family: 'Montserrat';
+}
+body {
+    overflow-x: hidden;
+}
+
+.AboutH1 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    
+    letter-spacing: -0.02em;
+    
+    color: #132026;
+}
+.Ah1  {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 31px;
+/* or 172% */
+
+letter-spacing: 0.015em;
+
+
+}
+.Collection{
+font-weight: 700;
+font-size: 45px;
+line-height: 46px;
+display: flex;
+align-items: center;
+color: #F6C95B;
+}
+.coll  {
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+}
+
+.ReSizeImg  img{
+
+}
+
+.se2{
+ font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 55px;
+letter-spacing: -0.02em;
+color: #132026;
+margin-top: 130px;
+}
+.D {
+    color:#F0C960; 
+}
+.IconSpan {
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+color: #132026;
+}
+
+.IconP {
+    width: 68%;
+    margin-left: 110px !important;
+    margin-top: -38px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C2A30;
+
+}
+
+.section3  {
+    background-image: url(../img/bg.png);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+
+.box {
+    width: 55%;
+    height: 500px;
+    background: #000000;
+    position: relative;
+    margin-top: 50px;
+   
+  }
+  .box1 {
+    width: 56%;
+    height: 500px;
+    background: #000000;
+    position: relative;
+    margin-left: -144px;
+    margin-top: 50px;
+}
+.one {
+    background:linear-gradient(-74deg, transparent 173px, #000000 0) top right,
+               linear-gradient(115deg, transparent 121px, #000000 0);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    overflow: hidden;
+    
+}
+.one img{
+margin-left: 40%;
+}
+
+.two > img{
+    margin-left: 40%;
+    }
+
+
+.two {
+    background: linear-gradient(104deg, transparent 137px, #000000 0);
+    /* linear-gradient(-45deg, transparent 165px, #000000 0) bottom left; */
+    /* background-size: 100% 50%; */
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+
+}
+.imgArea img  {
+    width: 100% !important;
+    height: 300px;
+}
