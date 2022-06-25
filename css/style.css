@@ -5,8 +5,8 @@
 }
 body {
     overflow-x: hidden;
+    font-family: 'Montserrat';
 }
-
 .AboutH1 {
     font-family: 'Montserrat';
     font-style: normal;
@@ -36,6 +36,7 @@ line-height: 46px;
 display: flex;
 align-items: center;
 color: #F6C95B;
+text-align: center;
 }
 .coll  {
     font-family: 'Montserrat';
@@ -187,12 +188,32 @@ margin-left: 40%;
         letter-spacing: -0.02em;
         color: #132026;
         margin-top: 10px;
+        text-align: center;
     }
+    .Ah1  {
+    width: 80% !important;
+    text-align: center;
+    margin:auto;
+
+    
+    }   
+.centerArea div{
+    text-align: center;
+}
+.Collection{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 46px;
+    display: block;
+    align-items: center;
+    color: #F6C95B;
+    text-align: center;
+    }
+
     .imgAreaHidden img{
         width: 90% !important;
         height: 400px;
-        margin-left: -80px;
-        margin-bottom: -25px;
+       margin:auto;
         opacity: 1;
         display: block;
     }
@@ -207,45 +228,74 @@ margin-left: 40%;
       
 }
 .box1 {
-    width: 95%;
+    width: 90%;
     height: 500px;
     background: #000000;
     position: relative;
-    margin-left: -144px;
-    margin-top: 50px;
+    margin:auto;
 }
 .box {
-    width: 80%;
+    width: 90%;
     height: 500px;
     background: #000000;
     position: relative;
-    margin-top: 50px;
+   margin:auto;
    
   }
 
 }
 
 @media all and (max-width:767px){
+
  
     .box {
-        width: 80%;
+        width: 90%;
         height: 500px;
         background: #000000;
         position: relative;
-        margin-top: 50px;
+       margin:auto;
        
       }
       .box1 {
-        width: 100%;
+        width: 90%;
         height: 500px;
         background: #000000;
         position: relative;
-        margin-left: -144px;
-        margin-top: 50px;
+       margin:auto;
     }
     .Abul  {
         margin-left: -18px !important;
     }
+    .se2{
+        font-family: 'Montserrat';
+       font-style: normal;
+       font-weight: 700;
+       font-size: 45px;
+       line-height: 55px;
+       letter-spacing: -0.02em;
+       color: #132026;
+       margin:auto;
+       text-align: center;
+    
+       } 
+
+.centerArea2 div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.IconP {
+    width: 100%;
+    margin-left: 10px !important;
+    margin-top: 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #1C2A30;
+
+}
+
 }
 
 @media all and (max-width:579px){
@@ -262,26 +312,25 @@ margin-left: 40%;
     
     }
     .box {
-        width: 70%;
+        width: 100%;
         height: 500px;
         background: #000000;
         position: relative;
-        margin-top: 50px;
+        margin:auto;
        
       }
     .box1 {
-        width: 95%;
+        width: 100%;
         height: 500px;
         background: #000000;
         position: relative;
-        margin-left: -144px;
-        margin-top: 50px;
+        margin:auto;
     }
     .imgAreaHidden img{
-        width: 83% !important;
+        width: 100% !important;
         height: 400px;
-        margin-left: -80px;
-        margin-bottom: -25px;
+
+        margin:auto;
         opacity: 1;
         display: block;
     }
@@ -289,19 +338,117 @@ margin-left: 40%;
 
 @media all and (max-width:500px){
     .box {
-        width: 65%;
+        width: 100%;
         height: 500px;
         background: #000000;
         position: relative;
-        margin-top: 50px;
+        margin:auto;
        
       }
       .imgAreaHidden img{
-        width: 81% !important;
+        width: 100% !important;
         height: 400px;
-        margin-left: -80px;
-        margin-bottom: -25px;
+        margin:auto;
         opacity: 1;
         display: block;
     }
+}
+
+.mainImg {
+overflow: hidden;
+}
+
+/* next & prev icon */
+
+.mTo {
+    margin-left: -384px;
+    margin-top: -185px;
+    cursor: pointer;
+}
+.MBToo {
+    margin-left: 383px;
+    cursor: pointer;
+    margin-top: -410px;
+}
+
+.SecondMT {
+    cursor: pointer;
+    margin-left: 85px;
+    margin-top: -185px;
+}
+.SecondMB {
+    cursor: pointer;
+    margin-left: 591px;
+    margin-top: -410px;
+}
+
+@media all and (max-width:1210px){
+    .mTo {
+        margin-left: -300px;
+        margin-top: -185px;
+        cursor: pointer;
+    }
+    .MBToo {
+        margin-left: 300px;
+        cursor: pointer;
+        margin-top: -410px;
+    }
+    
+    .SecondMT {
+        cursor: pointer;
+        margin-left: 85px;
+        margin-top: -185px;
+    }
+    .SecondMB {
+        cursor: pointer;
+        margin-left: 510px;
+        margin-top: -410px;
+    }
+}
+
+@media all and (max-width:1100px){
+    .one img {
+        margin-left: 32%;
+    }
+    .mTo {
+        margin-left: -300px;
+        margin-top: -185px;
+        cursor: pointer;
+    }
+    .MBToo {
+        margin-left: 300px;
+        cursor: pointer;
+        margin-top: -410px;
+    }
+    
+    .SecondMT {
+        cursor: pointer;
+        margin-left: 85px;
+        margin-top: -185px;
+    }
+    .SecondMB {
+        cursor: pointer;
+        margin-left: 510px;
+        margin-top: -410px;
+    }
+}
+
+@media all and (max-width:1040px){
+    .mTo {
+        display: none;
+    }
+    .MBToo {
+        display: none;
+    }
+    
+    .SecondMT {
+        display: none;
+    }
+    .SecondMB {
+       display: none;
+    }
+}
+
+.Hidden img {
+    display: none;
 }
